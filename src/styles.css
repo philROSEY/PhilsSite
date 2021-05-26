@@ -1,0 +1,80 @@
+* {
+    background-color: beige;
+    font-family: Helvetica;
+}
+
+
+h3 {
+    color: navy;
+}
+
+h1 {
+    color: navy
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    padding: .5rem;
+    display: inline-block;
+}
+
+.title {
+    text-align: center;
+}
+
+.return-home {
+    text-align: center;
+}
+
+/* Home styling */
+
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "one two three"
+}
+
+/* Tech styling */
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "one two three"
+}
+
+.tech-list {
+    text-align: center;
+}
+
+/* About Styling */
+
+.about-main {
+    text-align: center;
+}
+
+/* Contact Styling */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "one two three four"
+}
